@@ -39,7 +39,7 @@ class MinimumElement
     void display()
     {
     cout<<"OUTPUT"<<endl;
-    cout<<ar[0];
+    cout<<ar[n-1];
     }
 };
 int main()
