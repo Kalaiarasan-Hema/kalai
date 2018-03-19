@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class CountNumbers
+class CountNumbers2
 {
 int s,c=0;
 public:
@@ -22,7 +22,7 @@ while(s%10)
 };
 int main()
 {
-CountNumbers nr;
+CountNumbers2 nr;
 nr.get();
     nr.count();
 return 0;
