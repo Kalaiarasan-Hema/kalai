@@ -14,7 +14,7 @@ void fibo()
     cout<<"OUTPUT"<<endl;
     for(i=0;i<n;i++)
     {
-        cout<<s;
+        cout<<s<<" ";
         s=a+b;
         a=b;
         b=s;
