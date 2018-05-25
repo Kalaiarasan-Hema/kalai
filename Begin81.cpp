@@ -12,7 +12,7 @@ while(true)
 {
 cin>>n1>>n2;
 c=(n1>n2)?(n1-n2):(n2-n1);
-cout<<"\n"<<c<<"\n";
+cout<<c<<"\n";
 }
 }
 Begin81()
