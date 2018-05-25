@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 class Begin82
 {
@@ -8,7 +9,8 @@ public:
 void calc()
 {
 cin>>l>>b;
-a=l*b;
+a=l*b*1.00000;
+cout<<setprecision(5)<<fixed;
 cout<<a;
 }
 Begin82()
